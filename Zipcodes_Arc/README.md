@@ -8,7 +8,8 @@
 | Shape |  
 | SEG_ID |  
 | BORDERTYPE |  
-| CODE |  
+| CODE |  Zip code for each polygon.
+
 | F_NAME |  
 | ZIP_LEFT |  
 | ZIP_RIGHT |  
