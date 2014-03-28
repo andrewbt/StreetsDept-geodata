@@ -23,23 +23,39 @@ The street centerline represents streets and walkways dedicated to the city, som
 | LENGTH |  
 | STCL2_ |  
 | STCL2_ID |  
-| PRE_DIR |  
-| ST_NAME |  
-| ST_TYPE |  
-| SUF_DIR |  
-| ZIP_LEFT |  
-| ZIP_RIGHT |  
-| L_F_ADD |  
-| L_T_ADD |  
-| R_F_ADD |  
-| R_T_ADD |  
-| ST_CODE |  
-| L_HUNDRED |  
-| R_HUNDRED |  
-| SEG_ID |  
-| ONEWAY |  
-| CLASS |  
-| RESPONSIBL |  
+| PRE_DIR | Directional prefix of complete street name 
+  
+| ST_NAME |  Street name 
+
+| ST_TYPE |  Street type designation 
+
+| SUF_DIR |  Directional suffix of complete street name 
+
+| ZIP_LEFT |  Zip code on left side of arc 
+
+| ZIP_RIGHT |  Zip code on right side of arc 
+
+| L_F_ADD |  -"From" address attribute on left side of arc 
+
+| L_T_ADD |  -"To" address attribute on left side of arc 
+
+| R_F_ADD | -"From" address attribute on right side of arc 
+ 
+| R_T_ADD |  -"To" address attribute on right side of arc 
+
+| ST_CODE |  -street code
+| L_HUNDRED |  -address hundred block on left side of arc 
+
+| R_HUNDRED |  -address hundred block on right side of arc 
+ 
+| SEG_ID |  -unique identifier of arc 
+
+| ONEWAY |  -Denotes travel direction of arc in conjunction with arc direction
+
+| CLASS |  -Street class of arc; 1-Expressways; 2-Major Arterial; 3-Minor Arterial; 4-Collector; 5-Local 
+
+| RESPONSIBL | -Responsibility of street arc 
+ 
 | UPDATE_ |  
 | NEWSEGDATE |  
 | MULTI_REP |  
