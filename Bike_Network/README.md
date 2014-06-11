@@ -4,8 +4,8 @@
 
 Network of streets within City of Philadelphia with bike lanes and/or bike-friendly markings.   
   
-Attributes updated: 02/11/2014  
-Metadata updated: 02/11/2014  
+Attributes updated: 04/07/2014  
+Metadata updated: 04/07/2014  
 Update Frequency: As needed
 
 ### Description  
@@ -18,61 +18,13 @@ Abstract:Bicycle Network for the City of Philadelphia FIELD DESCRIPTIONSSEG_ID -
 | ----- | :----------:  
 | FID |  
 | Shape |  
-| SEG_ID |  Unique segment identifier
-
-| STREETNAME |  complete street name including directional prefix; street name; street type; directional suffix
-
-| ST_CODE |  street code, the unique street name identifier
-
-| ONEWAY |   travel direction of street segment, relative to the digitized direction of segment
-
-| CLASS |  Street classification related to traffic volume and drivablilty
-
-| TYPE |  Bike network classification
-
-
-
-
-DOMAIN VALUES FOR FIELD TYPE:
-
-B - Buffered - A bike lane separated from motor vehicle traffic by a painted buffer.
-
-C - Conventional - Typically, a 5' to 6' bike lane marked with bike symbols
-
-BC - Buffered w Conventional - A buffered bike lane in one direction and a conventional bike lane in the opposite direction.
-
-BS - Buffered w Sharrows - A buffered bike lane in one direction and a lane with sharrows in the opposite direction.
-
-CT - Cycle track - A physically separated one-way bike lane, typically operating in the same direction as motor vehicles. Bikes are separated from both motor vehicle traffic and the sidewalk by physical barriers such as curbs, bollards, parked cars, etc.
-
-CTC - Cycle track w Conventional - A cycle track in one direction and a conventional bike lane in the opposite direction.
-
-CTS - Cycle track w Sharrows - A cycle track in one direction and a lane with sharrows in the opposite direction.
-
-TCT - Two-way Cycle track - A two-way cycle track. Unless in the middle of the street, this will operate as contra-flow at intersections.
-
-CF - Contraflow - A typical 5' to 6' bike lane, but with bikes traveling in the opposite direction from motor vehicles.
-
-CFCO - Contraflow w Conventional, opposite - Two bike lanes in opposite directions on opposite sides of a one-way street.
-
-CFCS - Contraflow w Conventional, same - Two bike lanes in opposite directions on the same side of a one-way street. Typically, the bike lane closest to motor vehicle traffic will operate in the same direction with it.
-
-CFS - Contraflow w Sharrows - A contraflow on one side of a one-way street, with sharrows in a traffic lane.
-
-CS - Conventional w Sharrows - A conventional bike lane in one direction and a lane with sharrows in the opposite direction. Typically used on hills where there is no room for lanes in both direction, and called a Climbing Lane.
-
-S - Sharrow - A general traffic lane with bike symbols and chevron arrows placed at intervals to indicate bicycle use and safe alignment.
-
-BF - Bicycle Friendly Street - A street with various treatments, including sharrows and bicycle signage at a minimum, to encourage bicycle use. May include traffic calming measures.
-
-SGO - Signed Only - A street that is signed for bike use, but has no other bicycle accommodation. Used for easy biking streets that form important links in the bicycle network.
-
-SP - Sidepath - A sidewalk where bicycling is permitted in both directions
-
-SPOW - One-way sidepath - A sidewalk where bicycling is permitted in only one direction, the direction of adjacent motor vehicle traffic.
-
+| SEG_ID |  
+| STREETNAME |  
+| ST_CODE |  
+| ONEWAY |  
+| CLASS |  
+| TYPE |  
 | SHAPE_LEN |  
-
 
 
 ### Credits  
